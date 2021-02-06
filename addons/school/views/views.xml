@@ -30,7 +30,7 @@
   <record model="ir.actions.act_window" id="action_school_profile">
     <field name="name">School Profile</field>
     <field name="res_model">school.profile</field>
-    <field name="view_mode">tree, form</field>
+    <field name="view_mode">tree,form</field>
   </record>
 
   <menuitem id="school_root_menu" name="School" />
