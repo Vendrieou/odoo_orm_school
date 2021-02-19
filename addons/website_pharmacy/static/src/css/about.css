@@ -1,0 +1,32 @@
+@media (max-width:760px) {
+  .container-about {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: ". . content-about content-about" ". . content-about content-about";
+  }
+}
+
+@media (max-width:640px) {
+  .card-content-about {
+    grid-column-start: span 4;
+  }
+}
+
+@media (max-width:640px) {
+  .content-about {
+    grid-column-start: span 4;
+  }
+}
+
+@media (min-width:768px) {
+  .content-about {
+    grid-area: content-about;
+  }
+}
+
+.content-about {
+  /*grid-area: content-about;*/
+}
+

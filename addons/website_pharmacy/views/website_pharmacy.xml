@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE odoo [
+    <!ENTITY nbsp "entity-value">
+]>
+<odoo>
+    <template id="s_website_pharmacy" name="Website Pharmacy snippet">
+        <section class="s_website_pharmacy">
+            <div id="home">
+                <div class="text-sm-left header-dark" style="background: url(&quot;assets/img/doctor.png&quot;) no-repeat;background-size: cover;height: 17em;">
+                    <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search" id="navbar">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">Pharmacy</a>
+                            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border: none;outline: none;">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navcol-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about" style="transition: top 0.3s;">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline mr-auto" target="_self">
+                                    <div class="form-group">
+                                        <label for="search-field">
+                                            <i class="fa fa-search"></i>
+                                        </label>
+                                        <input class="form-control search-field" type="search" id="search-field" name="search" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Pharmacy snippet">
+        <xpath expr="." position="inside">
+            <!-- <link rel="stylesheet" href="/website_pharmacy/static/src/css/bootstrap.min.css" t-ignore="true"/> -->
+            <!-- css only -->
+            <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" />
+            <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bitter:400,700" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/fonts/font-awesome.min.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/fonts/ionicons.min.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/about.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Features-Boxed.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Footer-Clean.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Header-Blue.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Header-Dark.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Highlight-Phone.css" />
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Lightbox-Gallery.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/navbar.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Navigation-with-Search.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Newsletter-Subscription-Form.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Social-Icons.css" />
+            <link rel="stylesheet" type="text/css" href="/website_pharmacy/static/src/css/Testimonials.css" />
+        </xpath>
+    </template>
+    <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="website_pharmacy.s_website_pharmacy" t-thumbnail="/website_pharmacy/static/src/src/img/ui/snippet_thumb.jpg" />
+        </xpath>
+    </template>
+</odoo>
