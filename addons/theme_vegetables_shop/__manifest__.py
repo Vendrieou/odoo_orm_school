@@ -12,24 +12,20 @@
 
     'author': "My Company",
     'website': "http://www.yourcompany.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Uncategorized',
+    'category': 'Theme/Environment',
     'version': '0.1',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base'],
-
-    # always loaded
+    'depends': ['theme_common'],
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        # THEME
+        'views/assets.xml',
+        'views/template.xml',
+        'views/s_product_list.xml',
+        # SNIPPETS
+        'views/snippets/s_panel_extended.xml',
+        'views/snippets/s_share_extended.xml',
+        'views/snippets/s_well_extended.xml',
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    'images': [
+        'static/description/vegetables_screenshot.jpg',
+    ]
 }

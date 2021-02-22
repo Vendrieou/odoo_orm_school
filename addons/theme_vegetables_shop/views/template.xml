@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template id="assets_frontend" inherit_id="web.assets_frontend">
+      <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/theme_vegetables_shop/static/src/scss/home_page.scss" />
+      </xpath>
+    </template>
+    <template id="snippets_selection" inherit_id="website.snippets">
+      <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]/t[@t-snippet='website.s_tree_columns']" position="after">
+        <t t-snippet="theme_vegetables_shop.s_product_list" t-thumbnail="/theme_vegetables_shop/static/src/img/s_product_list.jpg" />
+      </xpath>
+    </template>
+  </data>
+</odoo>
