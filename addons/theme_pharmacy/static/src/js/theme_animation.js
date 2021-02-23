@@ -1,4 +1,4 @@
-odoo.define('theme_treehouse.animation', function (require) {
+odoo.define('theme_treehouse1.animation', function (require) {
 'use strict';
 
 var publicWidget = require('web.public.widget');

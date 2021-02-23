@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * theme_treehouse
+# * theme_treehouse1
 # 
 # Translators:
 # Ermin Trevisan <trevi@twanda.com>, 2019
@@ -21,38 +21,38 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.preheader
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
 msgid "<i class=\"fa fa-envelope fa-1x\"/>Contact"
 msgstr "<i class=\"fa fa-envelope fa-1x\"/>Kontakt"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.preheader
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
 msgid "<i class=\"fa fa-map-marker fa-1x\"/>Meet us"
 msgstr "<i class=\"fa fa-map-marker fa-1x\"/>Treffen Sie uns"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.treehouse_options
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
 msgid "<i class=\"fa fa-paint-brush\"/>Style"
 msgstr "<i class=\"fa fa-paint-brush\"/>Style"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.preheader
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
 msgid "<i class=\"fa fa-plus-circle\"/>Add..."
 msgstr "<i class=\"fa fa-plus-circle\"/>Hinzufügen..."
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.treehouse_options
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
 msgid "Boxed"
 msgstr "Begrenzte Breite"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.treehouse_options
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
 msgid "Muted"
 msgstr "Stummgeschaltet"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.s_share_extended
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.s_share_extended
 msgid ""
 "Share\n"
 "                    <i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
@@ -60,12 +60,12 @@ msgstr ""
 "Teilen\n"
 "                    <i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.treehouse_options
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
 msgid "Underline"
 msgstr "Unterstrichen"
 
-#. module: theme_treehouse
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse.treehouse_options
+#. module: theme_treehouse1
+#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
 msgid "Uppercase"
 msgstr "Großbuchstaben"

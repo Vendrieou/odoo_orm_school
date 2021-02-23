@@ -27,15 +27,15 @@ $o-h5-font-size-factor: 1.5;
 $o-h6-font-size-factor: 1.25;
 
 $o-theme-background-patterns: (
-    url('/web/image/theme_treehouse.bg_pattern_01'),
-    url('/web/image/theme_treehouse.bg_pattern_02'),
-    url('/web/image/theme_treehouse.bg_pattern_03'),
-    url('/web/image/theme_treehouse.bg_pattern_04'),
-    url('/web/image/theme_treehouse.bg_pattern_05'),
-    url('/web/image/theme_treehouse.bg_pattern_06'),
-    url('/web/image/theme_treehouse.bg_pattern_07'),
-    url('/web/image/theme_treehouse.bg_pattern_08'),
-    url('/web/image/theme_treehouse.bg_pattern_09')
+    url('/web/image/theme_treehouse1.bg_pattern_01'),
+    url('/web/image/theme_treehouse1.bg_pattern_02'),
+    url('/web/image/theme_treehouse1.bg_pattern_03'),
+    url('/web/image/theme_treehouse1.bg_pattern_04'),
+    url('/web/image/theme_treehouse1.bg_pattern_05'),
+    url('/web/image/theme_treehouse1.bg_pattern_06'),
+    url('/web/image/theme_treehouse1.bg_pattern_07'),
+    url('/web/image/theme_treehouse1.bg_pattern_08'),
+    url('/web/image/theme_treehouse1.bg_pattern_09')
 );
 $o-theme-background-pattern-number: null;
 
@@ -105,7 +105,7 @@ $o-theme-color-palettes: (
 $o-gray-color-palettes: (
     (
         'white': #FFFFFF,
-        '200': #efecca,
+        '200': #486a96,
         '700': #AFAD94,
         'black': #000000,
     ),

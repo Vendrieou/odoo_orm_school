@@ -23,7 +23,7 @@
         }
     }
 
-    // TODO this is not very consistent but this was how theme_treehouse was
+    // TODO this is not very consistent but this was how theme_treehouse1 was
     // designed... should we keep this ?
     @each $color, $alias in ('success': 'beta', 'info': 'gamma', 'warning': 'delta', 'danger': 'epsilon') {
         &.btn-#{$color} {
@@ -452,14 +452,14 @@
 // Compatibility for bg-img-*
 //------------------------------------------------------------------------------
 @include o-theme-nmi-bg-image-classes((
-    url("/web/image/theme_treehouse.bg_img_01") center, url("/web/image/theme_treehouse.bg_img_02") center,
-    url("/web/image/theme_treehouse.bg_img_03") center, url("/web/image/theme_treehouse.bg_img_04") center,
-    url("/web/image/theme_treehouse.bg_img_05") center, url("/web/image/theme_treehouse.bg_img_06") center,
-    url("/web/image/theme_treehouse.bg_img_07") center, url("/web/image/theme_treehouse.bg_img_08") center,
-    url("/web/image/theme_treehouse.bg_img_09") center, url("/web/image/theme_treehouse.bg_img_10") center,
-    url("/web/image/theme_treehouse.bg_img_11") center, url("/web/image/theme_treehouse.bg_img_12") center,
-    url("/web/image/theme_treehouse.bg_img_13") center, url("/web/image/theme_treehouse.bg_img_14") center,
-    url("/web/image/theme_treehouse.bg_img_15") center, url("/web/image/theme_treehouse.bg_img_16") center
+    url("/web/image/theme_treehouse1.bg_img_01") center, url("/web/image/theme_treehouse1.bg_img_02") center,
+    url("/web/image/theme_treehouse1.bg_img_03") center, url("/web/image/theme_treehouse1.bg_img_04") center,
+    url("/web/image/theme_treehouse1.bg_img_05") center, url("/web/image/theme_treehouse1.bg_img_06") center,
+    url("/web/image/theme_treehouse1.bg_img_07") center, url("/web/image/theme_treehouse1.bg_img_08") center,
+    url("/web/image/theme_treehouse1.bg_img_09") center, url("/web/image/theme_treehouse1.bg_img_10") center,
+    url("/web/image/theme_treehouse1.bg_img_11") center, url("/web/image/theme_treehouse1.bg_img_12") center,
+    url("/web/image/theme_treehouse1.bg_img_13") center, url("/web/image/theme_treehouse1.bg_img_14") center,
+    url("/web/image/theme_treehouse1.bg_img_15") center, url("/web/image/theme_treehouse1.bg_img_16") center
 ), cover);
 
 // Background Patterns

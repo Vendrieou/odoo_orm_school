@@ -1,6 +1,6 @@
 {
-    'name': 'Treehouse Theme',
-    'description': 'Treehouse Theme - Responsive Bootstrap Theme for Odoo CMS',
+    'name': 'Treehouse1 Theme',
+    'description': 'Treehouse Theme1 - Responsive Bootstrap Theme for Odoo CMS',
     'category': 'Theme/Environment',
     'summary': 'Environment, Nature, Ecology, Sustainable Development, Non Profit, NGO, Travels',
     'sequence': 140,
