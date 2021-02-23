@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * theme_treehouse1
+# * theme_pharmacy
 # 
 # Translators:
 # e2f <projects@e2f.com>, 2019
@@ -20,49 +20,49 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-envelope fa-1x\"/>Contact"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-map-marker fa-1x\"/>Meet us"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "<i class=\"fa fa-paint-brush\"/>Style"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-plus-circle\"/>Add..."
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Boxed"
 msgstr "盒装的"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Muted"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.s_share_extended
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.s_share_extended
 msgid ""
 "Share\n"
 "                    <i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Underline"
 msgstr "下划线"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Uppercase"
 msgstr ""

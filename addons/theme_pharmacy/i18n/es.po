@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * theme_treehouse1
+# * theme_pharmacy
 # 
 # Translators:
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2019
@@ -21,49 +21,49 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-envelope fa-1x\"/>Contact"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-map-marker fa-1x\"/>Meet us"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "<i class=\"fa fa-paint-brush\"/>Style"
 msgstr "<i class=\"fa fa-paint-brush\"/>Estilo"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-plus-circle\"/>Add..."
 msgstr "<i class=\"fa fa-plus-circle\"/>Añadir..."
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Boxed"
 msgstr "Archivado"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Muted"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.s_share_extended
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.s_share_extended
 msgid ""
 "Share\n"
 "                    <i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
 msgstr ""
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Underline"
 msgstr "Subrayado"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Uppercase"
 msgstr ""

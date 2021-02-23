@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * theme_treehouse1
+# * theme_pharmacy
 # 
 # Translators:
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2019
@@ -20,38 +20,38 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-envelope fa-1x\"/>Contact"
 msgstr "<i class=\"fa fa-envelope fa-1x\"/>Contacteer"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-map-marker fa-1x\"/>Meet us"
 msgstr "<i class=\"fa fa-map-marker fa-1x\"/>Ontmoet ons"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "<i class=\"fa fa-paint-brush\"/>Style"
 msgstr "<i class=\"fa fa-paint-brush\"/>Stijl"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.preheader
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.preheader
 msgid "<i class=\"fa fa-plus-circle\"/>Add..."
 msgstr "<i class=\"fa fa-plus-circle\"/>Toevoegen..."
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Boxed"
 msgstr "Boxed"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Muted"
 msgstr "Gedempt"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.s_share_extended
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.s_share_extended
 msgid ""
 "Share\n"
 "                    <i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
@@ -59,12 +59,12 @@ msgstr ""
 "Deel\n"
 "<i class=\"text-muted fa fa-hand-o-right fa-1x\"/>"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Underline"
 msgstr "Onderstreep"
 
-#. module: theme_treehouse1
-#: model_terms:theme.ir.ui.view,arch:theme_treehouse1.treehouse_options
+#. module: theme_pharmacy
+#: model_terms:theme.ir.ui.view,arch:theme_pharmacy.treehouse_options
 msgid "Uppercase"
 msgstr "Hoofdletters"

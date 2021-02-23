@@ -2,18 +2,18 @@
 <odoo>
     <template id="_assets_utils" inherit_id="web._assets_utils">
         <xpath expr="//link[last()]" position="after">
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/mixins.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/mixins.scss"/>
         </xpath>
     </template>
     <template id="_assets_primary_variables" inherit_id="website._assets_primary_variables" priority="1">
         <xpath expr="//link[last()]" position="after">
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/primary_variables.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets_variables.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/primary_variables.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets_variables.scss"/>
         </xpath>
     </template>
     <template id="_assets_frontend_helpers" inherit_id="website._assets_frontend_helpers" priority="1">
         <xpath expr="//link" position="before">
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/bootstrap_overridden.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/bootstrap_overridden.scss"/>
         </xpath>
     </template>
 
@@ -32,15 +32,15 @@
             <link rel="stylesheet" type="text/scss" href="/theme_common/static/src/scss/s_blockquote.scss"/>
             <link rel="stylesheet" type="text/scss" href="/theme_common/static/src/scss/s_timeline.scss"/>
             <!-- Theme -->
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/theme.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets/s_big_message.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets/s_panel_extended.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets/s_share_extended.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_treehouse1/static/src/scss/snippets/s_well_extended.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/theme.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets/s_big_message.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets/s_panel_extended.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets/s_share_extended.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_pharmacy/static/src/scss/snippets/s_well_extended.scss"/>
         </xpath>
         <xpath expr="//script[last()]" position="after">
-            <script type="text/javascript" src="/theme_treehouse1/static/src/js/theme_animation.js"></script>
+            <script type="text/javascript" src="/theme_pharmacy/static/src/js/theme_animation.js"></script>
         </xpath>
     </template>
 
